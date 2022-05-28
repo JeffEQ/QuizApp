@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),  url(https://cdn.wallpapersafari.com/29/60/2LNm0B.png);
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+h1, h2, p {
+  color: white;
+  
+}
+
+
+.questionbox {
+  background-color: cyan;
+  padding: 16px;
+  border-radius: 16px;
+  width: 80%;
+  color: brown;
+  box-shadow: 5px 10px;
+  height: auto;
+  margin: 0 auto
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  background-color: greenyellow ;
+  padding: 15px;
+  border: 3px solid white;
+  border-radius: 20px;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+ul li:hover {
+  background-color:red;
+}
+
+.questiontext {
+  color: blue;
+  font-size: 25px
+}
+
+
+
+.results {
+  background-color: cyan;
+  padding: 0px;
+  width: 50%;
+  color: brown;
+  height: auto;
+  margin: 0 auto
+
+}
+
+button {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+}
